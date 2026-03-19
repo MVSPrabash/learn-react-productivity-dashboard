@@ -1,0 +1,50 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.todo-input input {
+  background-color: black;
+  color: pink;
+  border: none;
+  padding: 0.25rem;
+  width: 95%;
+  border-radius: 7px;
+}
+
+.todo-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+  /* Scroll */
+  flex: 1;
+  overflow-y: auto;
+}
+
+.todo-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  margin: 2px 0px;
+}
+
+.todo-list li.done label {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.todo-list li label input {
+  margin-right: 2px;
+}
+
+.todo-list li button {
+  width: 1rem;
+  border: none;
+  cursor: pointer;
+}
+

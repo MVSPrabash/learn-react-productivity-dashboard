@@ -1,0 +1,9 @@
+Dashboard:
+  * Responsive grid of widgets (flexbox)
+
+Widgets:
+  * Clock & date
+  * Theme toggle
+  * Notes
+  * To-do
+  * Pomodora Timer

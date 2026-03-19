@@ -1,0 +1,26 @@
+.notes {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.notes > label {
+  display: block;
+}
+
+.notes > textarea {
+  flex: 1;
+  margin-top: 5px;
+  width: 100%;
+  resize: none;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 1.001rem;
+}
+
+.notes > textArea:hover {
+  color: var(--text);
+}
+
